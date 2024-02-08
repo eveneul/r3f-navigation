@@ -24,30 +24,6 @@ export default function Scene() {
         weather="clear"
         position={[-2, 0, 0]}
       />
-      <Weather
-        weather="cloud"
-        position={[-1, 0, 0]}
-      />
-      <Weather
-        weather="clouds"
-        position={[0, 0, 0]}
-      />
-      <Weather
-        weather="mist"
-        position={[1, 0, 0]}
-      />
-      <Weather
-        weather="rain"
-        position={[2, 0, 0]}
-      />
-      <Weather
-        weather="rain2"
-        position={[0, 1, 0]}
-      />
-      <Weather
-        weather="snow"
-        position={[0, 2, 0]}
-      />
     </Canvas>
   );
 }
